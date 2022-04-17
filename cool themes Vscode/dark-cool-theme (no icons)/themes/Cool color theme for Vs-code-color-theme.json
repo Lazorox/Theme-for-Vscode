@@ -1,0 +1,381 @@
+{
+    "name": "Cool color theme for Vs-code",
+	"colors": {
+        /*
+Editor
+*/
+        "editor.background": "#212222",
+        "editor.lineHighlightBackground": "#242424",
+        "editor.inactiveSelectionBackground": "#3a3d41",
+        "editor.selectionBackground": "#0f4768",
+        "editorLineNumber.foreground": "#858585",
+        "editorLineNumber.activeForeground": "#d3cece",
+        "editorGutter.background": "#272727",
+        "editorGroupHeader.tabsBorder": "#4b597e",
+        "editorGroupHeader.tabsBackground": "#252526", // diff
+        "editorCodeLens.foreground": "#565c63",
+        "editorIndentGuide.background": "#4e4e4e",
+        "editorIndentGuide.activeBackground": "#505050",
+        /*
+Tab
+*/
+        "tab.border": "#36434a", // diff
+        "tab.hoverBackground": "#4b6572", // diff
+        "tab.activeBorder": "#00bbff",
+        "tab.activeBackground": "#2f4256", // diff
+        "tab.inactiveForeground": "#d0c8c8",
+        "tab.unfocusedActiveForeground": "#BBBBBB",
+        "tab.unfocusedInactiveForeground": "#BBBBBB",
+        "tab.inactiveBackground": "#2c2c2c",
+        /*
+Breadcrumbs
+*/
+        "breadcrumb.background": "#232424",
+        /*
+SideBar
+*/
+        "sideBarSectionHeader.background": "#1e2b31", // diff
+        "sideBarSectionHeader.border": "#4a5f9b", // diff
+        "sideBar.border": "#4b597e", // diff
+        "sideBar.foreground": "#b5b3b3", // diff
+        "sideBar.background": "#27292A", // diff
+        /*
+List"#080303"
+*/
+        "list.dropBackground": "#3a4c55",
+        /*
+Panel
+*/
+        "panel.border": "#4b597e", // diff
+        "panelTitle.activeBorder": "#0d97c0",
+        "panelTitle.activeForeground": "#ece9e9",
+        "panel.background": "#2a3640", // diff
+        /*
+Activity Bar
+*/
+        "activityBar.border": "#4b597e", // diff
+        "activityBar.background": "#2f363d",
+        "activityBar.foreground": "#d2ebff", // diff
+        /*
+Terminal
+*/
+        "terminal.background": "#2b2b2b",
+        "terminal.foreground": "#dddad6",
+        /*
+Status Bar
+*/
+        // Foreground
+        "statusBar.foreground": "#a3a0a0",
+        "statusBar.debuggingForeground": "#cccccc",
+        // Background
+        "statusBar.background": "#2c353e",
+        "statusBar.debuggingBackground": "#864d30",
+        "statusBar.noFolderBackground": "#313335",
+        // Border
+        "statusBar.border": "#47546d",
+        "statusBar.noFolderBorder": "#4B4B4B",
+        "statusBar.debuggingBorder": "#4B4B4B",
+        /*
+Menu
+*/
+        "menu.foreground": "#e2e2e2",
+        "menu.border": "#15557f",
+        "menu.background": "#4a4a4c",
+        /*
+List
+*/
+        "list.hoverBackground": "#4b6572",
+        "list.inactiveSelectionBackground": "#0D293E",
+        "list.activeSelectionForeground": "#99b5e5",
+        /*
+Input
+*/
+        "input.border": "#4a5070",
+        "input.background": "#45494A",
+        "input.foreground": "#c2bfbf",
+        /*
+Dropdown
+*/
+        "dropdown.listBackground": "#252526",
+        "dropdown.foreground": "#BBBBBB",
+        "dropdown.border": "#646464",
+        /*
+Widgets
+*/
+        "editorWidget.background": "#27292a",
+        "editorWidget.border": "#464646",
+        "editorSuggestWidget.background": "#3C3F41",
+        /*
+Settings
+*/
+        "settings.headerForeground": "#ffffff",
+        /*
+Resources
+*/
+        "gitDecoration.ignoredResourceForeground": "#505050"
+    },
+    "tokenColors": [
+        {
+            "scope": [
+                "text"
+            ],
+            "settings": {
+                "foreground": "#BABABA"
+            }
+        },
+        {
+            "scope": [
+                "source",
+            ],
+            "settings": {
+                "foreground": "#c4ceda"
+            }
+        },
+        {
+            "scope": "emphasis",
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": "strong",
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": [
+                "comment",
+            ],
+            "settings": {
+                "foreground": "#908a8a"
+            }
+        },
+        {
+            "scope": [
+                "string.quoted",
+            ],
+            "settings": {
+                "foreground": "#d3a14b"
+            }
+        },
+        {
+            "scope": "constant.numeric",
+            "settings": {
+                "foreground": "#6897BB",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": [
+                "meta.var storage.type", // .js var
+            ],
+            "settings": {
+                "foreground": "#3598de"
+            }
+        },
+        {
+            "scope": [
+                "storage.type.function",
+            ],
+            "settings": {
+                "foreground": "#027fd2"
+            }
+        },
+        {
+            "scope": "support.function.builtin",
+            "settings": {
+                "foreground": "#996bc4"
+            }
+        },
+        /*
+Python
+*/
+        {
+            "scope": [
+                "source.python variable.parameter.function.language.special",
+            ],
+            "settings": {
+                "foreground": "#DE00FD",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": [
+                "source.python meta.function-call.arguments variable.parameter.function-call",
+            ],
+            "settings": {
+                "foreground": "#a04c1f"
+            }
+        },
+        {
+            "scope": [
+                "source.python constant.language",
+                "source.python keyword.operator.logical",
+                "source.python constant.character.format.placeholder.other",
+                "source.python meta.function storage.type.function ",
+                "source.python meta.class storage.type.class",
+                "source.python keyword.control.flow",
+                "source.python storage.type.format",
+                "source.python storage.modifier"
+            ],
+            "settings": {
+                "foreground": "#027fd2",
+                "fontStyle": ""
+            }, 
+        },
+        {
+            "scope": [
+                "source.python constant.character.escape",
+                "source.python keyword.control.import",
+                "source.python storage.type.format",
+                "variable.parameter.function.language.python",
+            ],
+            "settings": {
+                "foreground": "#CC7832",
+                "fontStyle": ""
+            },   
+        },
+        {
+            "scope": [
+                "source.python support.function.magic",
+                "source.python support.variable.magic"
+            ],
+            "settings": {
+                "foreground": "#B200B2"
+            }
+        },
+        {
+            "name": "Python block comments/multi-line strings",
+            "scope": [
+                "source.python string.quoted"
+            ],
+            "settings": {
+                "foreground": "#d3a14b",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": [
+                "source.python string.quoted.docstring",
+                "source.python string.quoted.docstring punctuation.definition.string.begin",
+                "source.python string.quoted.docstring punctuation.definition.string.end"
+            ],
+            "settings": {
+                "foreground": "#d3a14b",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "Python decorators",
+            "scope": [
+                "source.python meta.function.decorator support.type", // Handle textmate bug involving class decorator args
+                "source.python meta.function.decorator entity.name.function.decorator ",
+            ],
+            "settings": {
+                "foreground": "#a49f11"
+            }
+        },
+        {
+            "name": "Python support types",
+            "scope": [
+                "source.python support.type",
+                "source.python meta.function-call.arguments support.type", // Handle textmate bug involving class decorator args
+                "source.python meta.function-call support.function.builtin",
+                "source.python meta.item-access meta.item-access.arguments support.type",
+            ],
+            "settings": {
+                "foreground": "#996bc4"
+            }
+        },
+        {
+            "name": "Python functions",
+            "scope": [
+                "source.python entity.name.function"
+            ],
+            "settings": {
+                "foreground": "#5ab827",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "Python binary strings",
+            "scope": [
+                "source.python string.quoted.binary.single",
+                "source.python string.quoted.binary.single punctuation.definition.string.begin",
+                "source.python string.quoted.binary.single punctuation.definition.string.end",
+                "source.python string.quoted.binary.single storage.type.string"
+            ],
+            "settings": {
+                "foreground": "#cb1384",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "Python inherited classes, reserved language variables",
+            "scope": [
+                "source.python support.type.exception",
+                "source.python meta.class.inheritance support.type.exception",
+                "source.python meta.class.inheritance support.type.metaclass",
+            ],
+            "settings": {
+                "foreground": "#8888C6"
+            }
+        },
+        {
+            "name": "punctuation.section.class.begin.python",
+            "scope": [
+                "punctuation.section.class.begin.python",
+                "keyword.operator.assignment.python",
+                "keyword.operator.arithmetic.python",
+                "punctuation.section.function.begin.python",
+                "punctuation.separator.annotation.python",
+                "punctuation.separator.colon.python",
+                "punctuation.separator.dict.python",
+                "keyword.operator.comparison.python",
+                "keyword.operator.python"
+            ],
+            "settings": {
+                "foreground": "#b70f0f"
+            }
+        },
+        {
+            "name": "True and False and None",
+            "scope": [
+                "source.python constant.language"
+            ],
+            "settings": {
+                "foreground": "#df4545",
+                "fontStyle": ""
+            }
+        },
+        /* 
+        json 
+        */
+        {
+            "scope": [
+                "support.type.property-name.json"
+            ],
+            "settings": {
+                "foreground": "#9cdcfe",
+            }
+        },
+        {
+            "scope": [
+                "punctuation.separator.array.json",
+                "punctuation.separator.dictionary.pair.json"
+            ],
+            "settings": {
+                "foreground": "#c57928",
+            }
+        },
+        {
+            "scope": [
+                "punctuation.separator.dictionary.key-value.json"
+            ],
+            "settings": {
+                "foreground": "#b70f0f",
+            }
+        },
+    ],
+}
